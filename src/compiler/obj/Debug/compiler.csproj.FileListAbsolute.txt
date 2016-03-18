@@ -1,0 +1,5 @@
+C:\Users\matt\OneDrive\dev\bytecode\compiler\obj\Debug\compiler.csprojResolveAssemblyReference.cache
+C:\Users\matt\OneDrive\dev\bytecode\compiler\bin\Debug\compiler.exe
+C:\Users\matt\OneDrive\dev\bytecode\compiler\bin\Debug\compiler.pdb
+C:\Users\matt\OneDrive\dev\bytecode\compiler\obj\Debug\compiler.exe
+C:\Users\matt\OneDrive\dev\bytecode\compiler\obj\Debug\compiler.pdb

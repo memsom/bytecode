@@ -1,0 +1,9 @@
+C:\Users\matt\Documents\Visual Studio 2013\Projects\bytecode\RatCow.ByteCode\bin\Debug\RatCow.ByteCode.dll
+C:\Users\matt\Documents\Visual Studio 2013\Projects\bytecode\RatCow.ByteCode\bin\Debug\RatCow.ByteCode.pdb
+C:\Users\matt\Documents\Visual Studio 2013\Projects\bytecode\RatCow.ByteCode\obj\Debug\RatCow.ByteCode.csprojResolveAssemblyReference.cache
+C:\Users\matt\Documents\Visual Studio 2013\Projects\bytecode\RatCow.ByteCode\obj\Debug\RatCow.ByteCode.dll
+C:\Users\matt\Documents\Visual Studio 2013\Projects\bytecode\RatCow.ByteCode\obj\Debug\RatCow.ByteCode.pdb
+C:\Users\matt\OneDrive\dev\bytecode\RatCow.ByteCode\bin\Debug\RatCow.ByteCode.dll
+C:\Users\matt\OneDrive\dev\bytecode\RatCow.ByteCode\bin\Debug\RatCow.ByteCode.pdb
+C:\Users\matt\OneDrive\dev\bytecode\RatCow.ByteCode\obj\Debug\RatCow.ByteCode.dll
+C:\Users\matt\OneDrive\dev\bytecode\RatCow.ByteCode\obj\Debug\RatCow.ByteCode.pdb

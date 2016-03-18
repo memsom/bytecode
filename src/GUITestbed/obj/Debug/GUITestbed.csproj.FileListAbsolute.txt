@@ -1,0 +1,22 @@
+C:\Users\matt\Documents\Visual Studio 2013\Projects\bytecode\GUITestbed\bin\Debug\prog.asm
+C:\Users\matt\Documents\Visual Studio 2013\Projects\bytecode\GUITestbed\bin\Debug\GUITestbed.exe
+C:\Users\matt\Documents\Visual Studio 2013\Projects\bytecode\GUITestbed\bin\Debug\GUITestbed.pdb
+C:\Users\matt\Documents\Visual Studio 2013\Projects\bytecode\GUITestbed\bin\Debug\RatCow.ByteCode.dll
+C:\Users\matt\Documents\Visual Studio 2013\Projects\bytecode\GUITestbed\bin\Debug\RatCow.ByteCode.pdb
+C:\Users\matt\Documents\Visual Studio 2013\Projects\bytecode\GUITestbed\obj\Debug\GUITestbed.csprojResolveAssemblyReference.cache
+C:\Users\matt\Documents\Visual Studio 2013\Projects\bytecode\GUITestbed\obj\Debug\GUITestbed.Form1.resources
+C:\Users\matt\Documents\Visual Studio 2013\Projects\bytecode\GUITestbed\obj\Debug\GUITestbed.Properties.Resources.resources
+C:\Users\matt\Documents\Visual Studio 2013\Projects\bytecode\GUITestbed\obj\Debug\GUITestbed.csproj.GenerateResource.Cache
+C:\Users\matt\Documents\Visual Studio 2013\Projects\bytecode\GUITestbed\obj\Debug\GUITestbed.exe
+C:\Users\matt\Documents\Visual Studio 2013\Projects\bytecode\GUITestbed\obj\Debug\GUITestbed.pdb
+C:\Users\matt\OneDrive\dev\bytecode\GUITestbed\obj\Debug\GUITestbed.exe
+C:\Users\matt\OneDrive\dev\bytecode\GUITestbed\obj\Debug\GUITestbed.pdb
+C:\Users\matt\OneDrive\dev\bytecode\GUITestbed\bin\Debug\prog.asm
+C:\Users\matt\OneDrive\dev\bytecode\GUITestbed\bin\Debug\GUITestbed.exe
+C:\Users\matt\OneDrive\dev\bytecode\GUITestbed\bin\Debug\GUITestbed.pdb
+C:\Users\matt\OneDrive\dev\bytecode\GUITestbed\bin\Debug\RatCow.ByteCode.dll
+C:\Users\matt\OneDrive\dev\bytecode\GUITestbed\bin\Debug\RatCow.ByteCode.pdb
+C:\Users\matt\OneDrive\dev\bytecode\GUITestbed\obj\Debug\GUITestbed.csprojResolveAssemblyReference.cache
+C:\Users\matt\OneDrive\dev\bytecode\GUITestbed\obj\Debug\GUITestbed.Form1.resources
+C:\Users\matt\OneDrive\dev\bytecode\GUITestbed\obj\Debug\GUITestbed.Properties.Resources.resources
+C:\Users\matt\OneDrive\dev\bytecode\GUITestbed\obj\Debug\GUITestbed.csproj.GenerateResource.Cache
