@@ -48,6 +48,7 @@
     <Content Include="examples\test1.asm" />
     <Content Include="examples\test2.asm" />
     <Content Include="examples\test3.asm" />
+    <Content Include="examples\test4.asm" />
     <Content Include="prog.asm">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>

@@ -7,3 +7,7 @@ C:\Users\matt\OneDrive\dev\bytecode\RatCow.ByteCode\bin\Debug\RatCow.ByteCode.dl
 C:\Users\matt\OneDrive\dev\bytecode\RatCow.ByteCode\bin\Debug\RatCow.ByteCode.pdb
 C:\Users\matt\OneDrive\dev\bytecode\RatCow.ByteCode\obj\Debug\RatCow.ByteCode.dll
 C:\Users\matt\OneDrive\dev\bytecode\RatCow.ByteCode\obj\Debug\RatCow.ByteCode.pdb
+C:\Users\matt\Documents\GitHub\bytecode\src\RatCow.ByteCode\bin\Debug\RatCow.ByteCode.dll
+C:\Users\matt\Documents\GitHub\bytecode\src\RatCow.ByteCode\bin\Debug\RatCow.ByteCode.pdb
+C:\Users\matt\Documents\GitHub\bytecode\src\RatCow.ByteCode\obj\Debug\RatCow.ByteCode.dll
+C:\Users\matt\Documents\GitHub\bytecode\src\RatCow.ByteCode\obj\Debug\RatCow.ByteCode.pdb

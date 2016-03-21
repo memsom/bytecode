@@ -154,10 +154,124 @@ namespace RatCow.ByteCode
                         break;
 
                     case Instructions.ADD_W:
-                        var avalw2 = (UInt16)stack.Pop();
-                        var avalw1 = (UInt16)stack.Pop();
+                        var avalw2 = System.Convert.ToUInt16(stack.Pop());
+                        var avalw1 = System.Convert.ToUInt16(stack.Pop());
                         stack.Push((UInt16)(avalw1 + avalw2));
                         break;
+
+                    case Instructions.MUL_B:
+                        var avalm2 = System.Convert.ToByte(stack.Pop());
+                        var avalm1 = System.Convert.ToByte(stack.Pop());
+                        stack.Push(System.Convert.ToByte(avalm1 * avalm2));
+                        break;
+
+                    case Instructions.MUL_W:
+                        var avalmw2 = System.Convert.ToUInt16(stack.Pop());
+                        var avalmw1 = System.Convert.ToUInt16(stack.Pop());
+                        stack.Push(System.Convert.ToUInt16(avalmw1 * avalmw2));
+                        break;
+
+                    case Instructions.DIV_B:
+                        var avald2 = System.Convert.ToByte(stack.Pop());
+                        var avald1 = System.Convert.ToByte(stack.Pop());
+
+                        if (avald2 == 0 | avald1 == 0)
+                        {
+                            stack.Push(0);
+                            //error
+                            break;
+                        }
+                        else
+                        {
+
+                            stack.Push(System.Convert.ToByte(avald1 / avald2));
+                            break;
+                        }
+
+                    case Instructions.DIV_W:
+                        var avaldw2 = System.Convert.ToUInt16(stack.Pop());
+                        var avaldw1 = System.Convert.ToUInt16(stack.Pop());
+
+                        if (avaldw2 == 0 | avaldw1 == 0)
+                        {
+                            stack.Push(0);
+                            //error
+                            break;
+                        }
+                        else
+                        {
+
+                            stack.Push(System.Convert.ToUInt16(avaldw1 / avaldw2));
+                            break;
+                        }
+
+                    case Instructions.MOD_B:
+                        var avaldm2 = System.Convert.ToByte(stack.Pop());
+                        var avaldm1 = System.Convert.ToByte(stack.Pop());
+
+                        if (avaldm2 == 0 | avaldm1 == 0)
+                        {
+                            stack.Push(0);
+                            //error
+                            break;
+                        }
+                        else
+                        {
+
+                            stack.Push(System.Convert.ToByte(avaldm1 % avaldm2));
+                            break;
+                        }
+
+                    case Instructions.MOD_W:
+                        var avaldwm2 = System.Convert.ToUInt16(stack.Pop());
+                        var avaldwm1 = System.Convert.ToUInt16(stack.Pop());
+
+                        if (avaldwm2 == 0 | avaldwm1 == 0)
+                        {
+                            stack.Push(0);
+                            //error
+                            break;
+                        }
+                        else
+                        {
+
+                            stack.Push(System.Convert.ToUInt16(avaldwm1 % avaldwm2));
+                            break;
+                        }
+
+                    case Instructions.DIVF_B:
+                        var avaldf2 = System.Convert.ToByte(stack.Pop());
+                        var avaldf1 = System.Convert.ToByte(stack.Pop());
+
+                        if (avaldf2 == 0 | avaldf1 == 0)
+                        {
+                            stack.Push(0);
+                            //error
+                            break;
+                        }
+                        else
+                        {
+
+                            stack.Push((float)avaldf1 / (float)avaldf2);
+                            break;
+                        }
+
+                    case Instructions.DIVF_W:
+                        var avaldwf2 = System.Convert.ToUInt16(stack.Pop());
+                        var avaldwf1 = System.Convert.ToUInt16(stack.Pop());
+
+                        if (avaldwf2 == 0 | avaldwf1 == 0)
+                        {
+                            stack.Push(0.0);
+                            //error
+                            break;
+                        }
+                        else
+                        {
+
+                            stack.Push((float)avaldwf1 / (float)avaldwf2);
+                            break;
+                        }
 
                     case Instructions.JMP:
                         address = Next();

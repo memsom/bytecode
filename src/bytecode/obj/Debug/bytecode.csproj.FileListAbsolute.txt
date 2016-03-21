@@ -14,3 +14,11 @@ C:\Users\matt\OneDrive\dev\bytecode\bytecode\bin\Debug\RatCow.ByteCode.pdb
 C:\Users\matt\OneDrive\dev\bytecode\bytecode\obj\Debug\bytecode.csprojResolveAssemblyReference.cache
 C:\Users\matt\OneDrive\dev\bytecode\bytecode\obj\Debug\bytecode.exe
 C:\Users\matt\OneDrive\dev\bytecode\bytecode\obj\Debug\bytecode.pdb
+C:\Users\matt\Documents\GitHub\bytecode\src\bytecode\obj\Debug\bytecode.exe
+C:\Users\matt\Documents\GitHub\bytecode\src\bytecode\obj\Debug\bytecode.pdb
+C:\Users\matt\Documents\GitHub\bytecode\src\bytecode\bin\Debug\prog.asm
+C:\Users\matt\Documents\GitHub\bytecode\src\bytecode\bin\Debug\bytecode.exe
+C:\Users\matt\Documents\GitHub\bytecode\src\bytecode\bin\Debug\bytecode.pdb
+C:\Users\matt\Documents\GitHub\bytecode\src\bytecode\bin\Debug\RatCow.ByteCode.dll
+C:\Users\matt\Documents\GitHub\bytecode\src\bytecode\bin\Debug\RatCow.ByteCode.pdb
+C:\Users\matt\Documents\GitHub\bytecode\src\bytecode\obj\Debug\bytecode.csprojResolveAssemblyReference.cache

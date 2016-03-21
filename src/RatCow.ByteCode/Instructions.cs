@@ -35,8 +35,18 @@ namespace RatCow.ByteCode
         ADD_B = 11, //ADD BYTE
         ADD_W = 21,
 
-        SUB_B = 12, //SUBTRACT BYTE
-        SUB_W = 22,
+        SUB_B = 27, //SUBTRACT BYTE
+        SUB_W = 37,
+
+        MUL_B = 28, //Multiply BYTE
+        MUL_W = 38,
+
+        DIV_B = 12, //Divide BYTE
+        DIV_W = 22,
+        DIVF_B = 62, //Divide BYTE
+        DIVF_W = 82,
+        MOD_B = 63, //modulus BYTE
+        MOD_W = 83,
 
         JSR = 40,   //JUMP TO SUB ROUTINE
         RSR = 41,   //RETURN FROM SUB ROUTINE
