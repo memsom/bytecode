@@ -164,6 +164,14 @@ namespace RatCow.ByteCode
                 case Instructions.ADD_W:
                 case Instructions.SUB_B:
                 case Instructions.SUB_W:
+                case Instructions.MUL_B:
+                case Instructions.MUL_W:
+                case Instructions.DIV_B:
+                case Instructions.DIV_W:
+                case Instructions.DIVF_B:
+                case Instructions.DIVF_W:
+                case Instructions.MOD_B:
+                case Instructions.MOD_W:
                     lines.Add(line, (1));
                     break;
 

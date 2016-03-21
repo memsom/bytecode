@@ -3,46 +3,53 @@
 		NOP                               
 		NOP
 		NOP                               		                             
-START:  ST_S 'This is a test program.',13,10,$  
-		TRP 21                                  
-		ST_S 'Call a sub routine',13,10,$       
-		TRP 21                                  
-		JSR SUB1                                
-		ST_S 'Returned from sub 1.',13,10,$       
-		TRP 21   
-		NOP
-		NOP                               
-		JMP ENDP  	                             
-SUB1:   ST_S 'In sub routine',13,10,$           
+START:  ST_S 'Program start :: testing maths op codes.',13,10,$  
 		TRP 21 
-		JSR SUB2 
-		ST_S 'Returned from sub 2.',13,10,$       
-		TRP 21                                 
-		RSR 
-SUB2:   ST_S 'In sub routine 2, from sub 1',13,10,$           
-		TRP 21   
-		JSR SUB3 
-		ST_S 'Returned from sub 3.',13,10,$       
-		TRP 21                               
-		RSR  
-SUB3:   ST_S 'In sub routine 3, from sub 2',13,10,$           
-		TRP 21 
-		ST_B 0                                               
-LOOP:	ST_B 10                                               
-		ADD_B                  
-		LD_B V1                                               
-		SM_B V1                     
-		SM_B V1                           
-		SM_B V1                     
-		TRP 21                         
-		ST_S '',13,10,$                                  
-		TRP 21                        
-		CMP_B 50             
-		JNE LOOP                                                
-		ST_S 'Done',13,10,$  
-		TRP 21                                     
-		RSR  
+	    JSR MULB
+		JSR DIVB
+		JSR MODB
+		JSR DIVFB
+		JMP ENDP
 		NOP
+MULB:	ST_S '5 * 2 = ',$  
+		TRP 21
+		ST_B 5
+		ST_B 2
+		MUL_B
+		TRP 21 
+		ST_S '',13,10,$   
+		TRP 21  
+		RSR                             
+		NOP
+DIVB:	ST_S '5 / 6 = ',$  
+		TRP 21
+		ST_B 5
+		ST_B 2
+		DIV_B
+		TRP 21 
+		ST_S '',13,10,$   
+		TRP 21  
+		RSR                             
+		NOP
+MODB:	ST_S '5 % 2 = ',$  
+		TRP 21
+		ST_B 5
+		ST_B 2
+		MOD_B
+		TRP 21 
+		ST_S '',13,10,$   
+		TRP 21  
+		RSR                             
+		NOP
+DIVFB:	ST_S '5 / 2 = ',$  
+		TRP 21
+		ST_B 5
+		ST_B 2
+		DIVF_B
+		TRP 21 
+		ST_S '',13,10,$   
+		TRP 21  
+		RSR                             
 		NOP
 		NOP                            
 ENDP:   NOP
