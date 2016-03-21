@@ -20,3 +20,5 @@ C:\Users\matt\OneDrive\dev\bytecode\GUITestbed\obj\Debug\GUITestbed.csprojResolv
 C:\Users\matt\OneDrive\dev\bytecode\GUITestbed\obj\Debug\GUITestbed.Form1.resources
 C:\Users\matt\OneDrive\dev\bytecode\GUITestbed\obj\Debug\GUITestbed.Properties.Resources.resources
 C:\Users\matt\OneDrive\dev\bytecode\GUITestbed\obj\Debug\GUITestbed.csproj.GenerateResource.Cache
+C:\Users\matt\Documents\GitHub\bytecode\src\GUITestbed\obj\Debug\GUITestbed.exe
+C:\Users\matt\Documents\GitHub\bytecode\src\GUITestbed\obj\Debug\GUITestbed.pdb
