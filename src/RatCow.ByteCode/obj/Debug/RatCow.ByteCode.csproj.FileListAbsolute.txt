@@ -11,3 +11,4 @@ C:\Users\matt\Documents\GitHub\bytecode\src\RatCow.ByteCode\bin\Debug\RatCow.Byt
 C:\Users\matt\Documents\GitHub\bytecode\src\RatCow.ByteCode\bin\Debug\RatCow.ByteCode.pdb
 C:\Users\matt\Documents\GitHub\bytecode\src\RatCow.ByteCode\obj\Debug\RatCow.ByteCode.dll
 C:\Users\matt\Documents\GitHub\bytecode\src\RatCow.ByteCode\obj\Debug\RatCow.ByteCode.pdb
+C:\Users\matt\Documents\GitHub\bytecode\src\RatCow.ByteCode\obj\Debug\RatCow.ByteCode.csprojResolveAssemblyReference.cache

@@ -31,3 +31,4 @@ C:\Users\matt\Documents\GitHub\bytecode\src\GUITestbed\obj\Debug\GUITestbed.cspr
 C:\Users\matt\Documents\GitHub\bytecode\src\GUITestbed\obj\Debug\GUITestbed.Form1.resources
 C:\Users\matt\Documents\GitHub\bytecode\src\GUITestbed\obj\Debug\GUITestbed.Properties.Resources.resources
 C:\Users\matt\Documents\GitHub\bytecode\src\GUITestbed\obj\Debug\GUITestbed.csproj.GenerateResource.Cache
+C:\Users\matt\Documents\GitHub\bytecode\src\GUITestbed\bin\Debug\Examples\prog1.asm
