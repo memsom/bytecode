@@ -183,7 +183,6 @@ namespace RatCow.ByteCode
                         }
                         else
                         {
-
                             stack.Push(System.Convert.ToByte(avald1 / avald2));
                             break;
                         }
@@ -200,7 +199,6 @@ namespace RatCow.ByteCode
                         }
                         else
                         {
-
                             stack.Push(System.Convert.ToUInt16(avaldw1 / avaldw2));
                             break;
                         }
@@ -217,7 +215,6 @@ namespace RatCow.ByteCode
                         }
                         else
                         {
-
                             stack.Push(System.Convert.ToByte(avaldm1 % avaldm2));
                             break;
                         }

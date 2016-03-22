@@ -97,7 +97,7 @@ namespace RatCow.ByteCode
                     labels.Add(tlabel, i);
                 }
 
-                if (assemblyLines[i].Trim().StartsWith("DW_"))
+                if (assemblyLines[i].Trim().StartsWith("DM_"))
                 {
                     var tokens = assemblyLines[i].Trim().Split(' ');
                     var tlabel = tokens[1];
@@ -223,6 +223,7 @@ namespace RatCow.ByteCode
                     else if (tokens[offset] == Registers.V2.ToString())
                     {
                         result.Add((byte)Registers.V2);
+                        lines.Add(line, (2));
                     }
                     else
                     {
